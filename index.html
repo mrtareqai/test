@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Home School - Where Learning Meets Magic ✨</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#8B5CF6">
+    <meta name="description" content="A magical home school experience for children with bilingual education and creative learning! 🌟">
+</head>
+<body>
+    <!-- Magical floating elements -->
+    <div id="magical-elements"></div>
+    
+    <!-- Cursor trail -->
+    <div id="cursor-trail"></div>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <span>📚</span>
+                </div>
+                <span class="logo-text">Kids Home School</span>
+            </div>
+            <button class="language-toggle" onclick="toggleLanguage()">
+                <span class="globe-icon">🌍</span>
+                <span id="lang-text">العربية</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-icon">
+                        <div class="floating-book">📚</div>
+                        <div class="sparkle sparkle-1">✨</div>
+                        <div class="sparkle sparkle-2">⭐</div>
+                        <div class="sparkle sparkle-3">💖</div>
+                    </div>
+                    
+                    <h1 class="hero-title" data-en="Welcome to Kids Home School ✨" data-ar="مرحباً بكم في مدرسة الأطفال السحرية ✨">
+                        Welcome to Kids Home School ✨
+                    </h1>
+                    
+                    <p class="hero-subtitle" data-en="Where Learning Meets Magic & Wonder 🌈" data-ar="حيث يلتقي التعلم بالسحر والعجائب 🌈">
+                        Where Learning Meets Magic & Wonder 🌈
+                    </p>
+                    
+                    <p class="hero-description" data-en="Come join our amazing adventure where every child discovers their superpowers through learning, playing, and growing together in our magical school family! ✨" data-ar="تعال وانضم إلى مغامرتنا الرائعة حيث يكتشف كل طفل قواه الخارقة من خلال التعلم واللعب والنمو معاً في عائلة مدرستنا السحرية! ✨">
+                        Come join our amazing adventure where every child discovers their superpowers through learning, playing, and growing together in our magical school family! ✨
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary magical-btn" onclick="navigateTo('register.html')">
+                            🚀 <span data-en="Start Your Magical Journey!" data-ar="ابدأ رحلتك السحرية!">Start Your Magical Journey!</span>
+                        </button>
+                        <button class="btn btn-secondary magical-btn" onclick="navigateTo('about.html')">
+                            🌟 <span data-en="Discover Our Magic" data-ar="اكتشف سحرنا">Discover Our Magic</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Playful Characters -->
+                <div class="character robot-character" onclick="playRobotAnimation()">
+                    <div class="robot">
+                        <div class="robot-head">
+                            <div class="robot-eye"></div>
+                            <div class="robot-eye"></div>
+                            <div class="robot-smile"></div>
+                        </div>
+                        <div class="robot-body">
+                            <div class="robot-arm robot-arm-left"></div>
+                            <div class="robot-arm robot-arm-right"></div>
+                        </div>
+                    </div>
+                    <div class="speech-bubble" id="robot-speech">Hello! 👋</div>
+                </div>
+                
+                <div class="character cat-character" onclick="playCatAnimation()">
+                    <div class="cat">
+                        <div class="cat-head">
+                            <div class="cat-ear"></div>
+                            <div class="cat-ear"></div>
+                            <div class="cat-eye"></div>
+                            <div class="cat-eye"></div>
+                            <div class="cat-nose"></div>
+                        </div>
+                        <div class="cat-body">
+                            <div class="cat-tail"></div>
+                        </div>
+                    </div>
+                    <div class="heart-animation" id="cat-hearts">💕</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats">
+            <div class="container">
+                <h2 class="section-title" data-en="Our Amazing Numbers! 📊" data-ar="أرقامنا الرائعة! 📊">
+                    Our Amazing Numbers! 📊
+                </h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">👥</div>
+                        <div class="stat-number" data-target="150">0</div>
+                        <div class="stat-label" data-en="Happy Little Learners 😊" data-ar="متعلمون صغار سعداء 😊">
+                            Happy Little Learners 😊
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🏆</div>
+                        <div class="stat-number" data-target="25">0</div>
+                        <div class="stat-label" data-en="Super Teachers 👨‍🏫" data-ar="معلمون رائعون 👨‍🏫">
+                            Super Teachers 👨‍🏫
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">⭐</div>
+                        <div class="stat-number" data-target="10">0</div>
+                        <div class="stat-label" data-en="Years of Magic 🎂" data-ar="سنوات من السحر 🎂">
+                            Years of Magic 🎂
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <div class="container">
+                <h2 class="section-title" data-en="Why Kids Love Our School! 💖" data-ar="لماذا يحب الأطفال مدرستنا! 💖">
+                    Why Kids Love Our School! 💖
+                </h2>
+                <p class="section-subtitle" data-en="Every day is filled with wonder, learning, and lots of fun! ✨" data-ar="كل يوم مليء بالعجائب والتعلم والمرح! ✨">
+                    Every day is filled with wonder, learning, and lots of fun! ✨
+                </p>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">📚</div>
+                        <h3 class="feature-title" data-en="Super Fun Learning! 📚" data-ar="تعلم ممتع جداً! 📚">
+                            Super Fun Learning! 📚
+                        </h3>
+                        <p class="feature-description" data-en="We make every lesson feel like an exciting adventure where you discover amazing new things!" data-ar="نجعل كل درس يبدو وكأنه مغامرة مثيرة حيث تكتشف أشياء جديدة مذهلة!">
+                            We make every lesson feel like an exciting adventure where you discover amazing new things!
+                        </p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">💕</div>
+                        <h3 class="feature-title" data-en="Caring Friends 💕" data-ar="أصدقاء مهتمون 💕">
+                            Caring Friends 💕
+                        </h3>
+                        <p class="feature-description" data-en="Our teachers and friends care about you and want to see you shine bright like a star!" data-ar="معلمونا وأصدقاؤنا يهتمون بك ويريدون أن يروك تتألق مثل النجم!">
+                            Our teachers and friends care about you and want to see you shine bright like a star!
+                        </p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">😄</div>
+                        <h3 class="feature-title" data-en="Happy Times 😄" data-ar="أوقات سعيدة 😄">
+                            Happy Times 😄
+                        </h3>
+                        <p class="feature-description" data-en="Every day brings smiles, laughter, and joy as we learn and play together!" data-ar="كل يوم يجلب الابتسامات والضحك والفرح بينما نتعلم ونلعب معاً!">
+                            Every day brings smiles, laughter, and joy as we learn and play together!
+                        </p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">☀️</div>
+                        <h3 class="feature-title" data-en="Bright Future ☀️" data-ar="مستقبل مشرق ☀️">
+                            Bright Future ☀️
+                        </h3>
+                        <p class="feature-description" data-en="We help you grow into the amazing person you're meant to be!" data-ar="نساعدك على النمو لتصبح الشخص الرائع الذي من المفترض أن تكونه!">
+                            We help you grow into the amazing person you're meant to be!
+                        </p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">🌈</div>
+                        <h3 class="feature-title" data-en="Creative Magic 🌈" data-ar="سحر إبداعي 🌈">
+                            Creative Magic 🌈
+                        </h3>
+                        <p class="feature-description" data-en="Express yourself through art, music, and imagination in our colorful world!" data-ar="عبر عن نفسك من خلال الفن والموسيقى والخيال في عالمنا الملون!">
+                            Express yourself through art, music, and imagination in our colorful world!
+                        </p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">✨</div>
+                        <h3 class="feature-title" data-en="Special You ✨" data-ar="أنت مميز ✨">
+                            Special You ✨
+                        </h3>
+                        <p class="feature-description" data-en="You're unique and wonderful, and we celebrate what makes you special!" data-ar="أنت فريد ورائع، ونحن نحتفل بما يجعلك مميزاً!">
+                            You're unique and wonderful, and we celebrate what makes you special!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav">
+        <a href="index.html" class="nav-item active">
+            <span class="nav-icon">🏠</span>
+            <span class="nav-label" data-en="Home" data-ar="الرئيسية">Home</span>
+        </a>
+        <a href="about.html" class="nav-item">
+            <span class="nav-icon">🌟</span>
+            <span class="nav-label" data-en="About" data-ar="عنا">About</span>
+        </a>
+        <a href="classrooms.html" class="nav-item">
+            <span class="nav-icon">📚</span>
+            <span class="nav-label" data-en="Classes" data-ar="الفصول">Classes</span>
+        </a>
+        <a href="register.html" class="nav-item">
+            <span class="nav-icon">🎉</span>
+            <span class="nav-label" data-en="Join Us!" data-ar="انضم إلينا!">Join Us!</span>
+        </a>
+        <a href="contact.html" class="nav-item">
+            <span class="nav-icon">👋</span>
+            <span class="nav-label" data-en="Say Hi!" data-ar="قل مرحبا!">Say Hi!</span>
+        </a>
+    </nav>
+
+    <!-- Sound Toggle -->
+    <button class="sound-toggle" onclick="toggleSound()" title="Toggle Sound">
+        <span id="sound-icon">🔊</span>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

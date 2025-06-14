@@ -1,0 +1,209 @@
+{
+  "school": {
+    "name": {
+      "en": "Kids Home School",
+      "ar": "مدرسة الأطفال المنزلية"
+    },
+    "tagline": {
+      "en": "Where Learning Meets Magic & Wonder",
+      "ar": "حيث يلتقي التعلم بالسحر والعجائب"
+    },
+    "description": {
+      "en": "Come join our amazing adventure where every child discovers their superpowers through learning, playing, and growing together in our magical school family!",
+      "ar": "تعال وانضم إلى مغامرتنا الرائعة حيث يكتشف كل طفل قواه الخارقة من خلال التعلم واللعب والنمو معاً في عائلة مدرستنا السحرية!"
+    }
+  },
+  "stats": {
+    "students": {
+      "number": 150,
+      "label": {
+        "en": "Happy Little Learners",
+        "ar": "متعلمون صغار سعداء"
+      }
+    },
+    "teachers": {
+      "number": 25,
+      "label": {
+        "en": "Super Teachers",
+        "ar": "معلمون رائعون"
+      }
+    },
+    "years": {
+      "number": 10,
+      "label": {
+        "en": "Years of Magic",
+        "ar": "سنوات من السحر"
+      }
+    }
+  },
+  "features": [
+    {
+      "icon": "📚",
+      "title": {
+        "en": "Super Fun Learning!",
+        "ar": "تعلم ممتع جداً!"
+      },
+      "description": {
+        "en": "We make every lesson feel like an exciting adventure where you discover amazing new things!",
+        "ar": "نجعل كل درس يبدو وكأنه مغامرة مثيرة حيث تكتشف أشياء جديدة مذهلة!"
+      }
+    },
+    {
+      "icon": "💕",
+      "title": {
+        "en": "Caring Friends",
+        "ar": "أصدقاء مهتمون"
+      },
+      "description": {
+        "en": "Our teachers and friends care about you and want to see you shine bright like a star!",
+        "ar": "معلمونا وأصدقاؤنا يهتمون بك ويريدون أن يروك تتألق مثل النجم!"
+      }
+    },
+    {
+      "icon": "😄",
+      "title": {
+        "en": "Happy Times",
+        "ar": "أوقات سعيدة"
+      },
+      "description": {
+        "en": "Every day brings smiles, laughter, and joy as we learn and play together!",
+        "ar": "كل يوم يجلب الابتسامات والضحك والفرح بينما نتعلم ونلعب معاً!"
+      }
+    },
+    {
+      "icon": "☀️",
+      "title": {
+        "en": "Bright Future",
+        "ar": "مستقبل مشرق"
+      },
+      "description": {
+        "en": "We help you grow into the amazing person you're meant to be!",
+        "ar": "نساعدك على النمو لتصبح الشخص الرائع الذي من المفترض أن تكونه!"
+      }
+    },
+    {
+      "icon": "🌈",
+      "title": {
+        "en": "Creative Magic",
+        "ar": "سحر إبداعي"
+      },
+      "description": {
+        "en": "Express yourself through art, music, and imagination in our colorful world!",
+        "ar": "عبر عن نفسك من خلال الفن والموسيقى والخيال في عالمنا الملون!"
+      }
+    },
+    {
+      "icon": "✨",
+      "title": {
+        "en": "Special You",
+        "ar": "أنت مميز"
+      },
+      "description": {
+        "en": "You're unique and wonderful, and we celebrate what makes you special!",
+        "ar": "أنت فريد ورائع، ونحن نحتفل بما يجعلك مميزاً!"
+      }
+    }
+  ],
+  "classrooms": [
+    {
+      "id": 1,
+      "name": {
+        "en": "Little Explorers",
+        "ar": "المستكشفون الصغار"
+      },
+      "ageGroup": "3-5 years",
+      "teacher": {
+        "en": "Ms. Sarah Johnson",
+        "ar": "الآنسة سارة جونسون"
+      },
+      "subjects": ["Basic Math", "Reading", "Art", "Music"],
+      "students": 12,
+      "schedule": "Mon-Fri, 9:00-12:00",
+      "color": "from-pink-400 to-pink-500"
+    },
+    {
+      "id": 2,
+      "name": {
+        "en": "Young Scholars",
+        "ar": "العلماء الصغار"
+      },
+      "ageGroup": "6-8 years",
+      "teacher": {
+        "en": "Mr. Ahmed Hassan",
+        "ar": "الأستاذ أحمد حسن"
+      },
+      "subjects": ["Mathematics", "English", "Science", "Social Studies"],
+      "students": 15,
+      "schedule": "Mon-Fri, 9:00-14:00",
+      "color": "from-blue-400 to-blue-500"
+    },
+    {
+      "id": 3,
+      "name": {
+        "en": "Future Leaders",
+        "ar": "قادة المستقبل"
+      },
+      "ageGroup": "9-12 years",
+      "teacher": {
+        "en": "Dr. Emily Chen",
+        "ar": "الدكتورة إيميلي تشين"
+      },
+      "subjects": ["Advanced Math", "Literature", "Physics", "History"],
+      "students": 18,
+      "schedule": "Mon-Fri, 8:00-15:00",
+      "color": "from-green-400 to-green-500"
+    },
+    {
+      "id": 4,
+      "name": {
+        "en": "Creative Minds",
+        "ar": "العقول المبدعة"
+      },
+      "ageGroup": "6-12 years",
+      "teacher": {
+        "en": "Ms. Fatima Al-Zahra",
+        "ar": "الآنسة فاطمة الزهراء"
+      },
+      "subjects": ["Art", "Music", "Drama", "Creative Writing"],
+      "students": 20,
+      "schedule": "Tue-Thu, 14:00-17:00",
+      "color": "from-purple-400 to-purple-500"
+    }
+  ],
+  "navigation": {
+    "home": {
+      "en": "Home",
+      "ar": "الرئيسية"
+    },
+    "about": {
+      "en": "About",
+      "ar": "عنا"
+    },
+    "classrooms": {
+      "en": "Classes",
+      "ar": "الفصول"
+    },
+    "register": {
+      "en": "Join Us!",
+      "ar": "انضم إلينا!"
+    },
+    "contact": {
+      "en": "Say Hi!",
+      "ar": "قل مرحبا!"
+    }
+  },
+  "messages": {
+    "error": {
+      "en": "Oops! Let's try that again! 😊",
+      "ar": "عفواً! لنجرب مرة أخرى! 😊"
+    },
+    "success": {
+      "en": "Hooray! You did it perfectly! 🎉",
+      "ar": "يا هلا! لقد فعلتها بشكل مثالي! 🎉"
+    },
+    "required": {
+      "en": "We need this info to make everything perfect! ✨",
+      "ar": "نحتاج هذه المعلومات لجعل كل شيء مثالياً! ✨"
+    }
+  }
+}

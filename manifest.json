@@ -1,0 +1,12 @@
+{
+  "name": "Kids Home School - Magical Learning Adventure",
+  "short_name": "Kids School",
+  "description": "A magical home school experience for children with bilingual education and creative learning!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f3f0ff",
+  "theme_color": "#8B5CF6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiByeD0iMjQiIGZpbGw9InVybCgjZ3JhZGllbnQwX2xpbmVhcl8xXzEpIi8+CjxwYXRoIGQ9Ik05NiA0OEM4MC41MzYgNDggNjggNjAuNTM2IDY4IDc2VjExNkM2OCAxMzEuNDY0IDgwLjUzNiAxNDQgOTYgMTQ0UzEyNCAxMzEuNDY0IDEyNCAxMTZWNzZDMTI0IDYwLjUzNiAxMTEuNDY0IDQ4IDk2IDQ4WiIgZmlsbD0id2hpdGUiLz4KPHA+dGggZD0iTTg0IDc2SDEwOFY4NEg4NFY3NloiIGZpbGw9IiM4Q
